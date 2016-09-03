@@ -78,7 +78,7 @@ function loadData() {
             var url = "https://en.wikipedia.org/wiki/" +  article_string;
 
             $("#wikipedia-header").append('<li><a href="'+url+'">' +article_string+'</a></li>"');
-        };
+        }
 
         clearTimeout(wikiRequestTimeout);
     }
